@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+    src: url('./Figtree-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Figtree Fallback;
+    src: local(Arial);
+    ascent-override: 95.94%;
+    descent-override: 28.16%;
+    line-gap-override: 0.0%;
+    size-adjust: 104.76%;
+}
+
+.figtree_dec5edc0-module__D_hiDG__className {
+    font-family: Figtree, Figtree Fallback;
+    font-style: normal
+}
+
+.figtree_dec5edc0-module__D_hiDG__variable {
+    --font-figtree-sans: "Figtree", "Figtree Fallback"
+}
